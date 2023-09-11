@@ -1,0 +1,15 @@
+Vektory:
+#include <vector>
+
+vector <int> tablica;
+
+.push_back() - wysyła element na koniec wektora
+.insert() - dodaje element w podanym miejscu
+.begin() - wskazuje pierwszy element wektora
+.end() - wskazuje na koniec dynamicznej tablicy
+.size() - zwraca ilość elementów wektora
+.erase() - usuwa dany element z wektora
+.clear() - usuwa wszystkie elementy z wektora
+.sort() - include <algorithm> - sortuje dany zbiór
+	sort(tablica.begin(),tablica.end())
+		tablica[0]	tablica[1]
